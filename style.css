@@ -1,0 +1,63 @@
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		body {
+            background-image: url("MOUNIKA1.JPEG");
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+		.bold-text {
+            font-weight: bold;
+        }
+		p{
+			font-size: 30px;
+			color: darkblue;
+		}
+		li {
+            font-size: 30px;
+			color: white;
+        }
+		
+		h1 {
+            text-align: center;
+			font-size: 100px;
+			color: black;
+        }
+		h4 {
+			font-size: 50px;
+		}
+        .content {
+            display: none;
+        }
+        .content:target {
+            display: block;
+        }
+        .navigation-bar {
+            text-align: center;
+            margin-bottom: 20px; 
+        }
+        .navigation-bar button {
+            margin-right: 10px;
+			padding: 10px 20px; 
+			font-size: 16px; 
+        }
+		.round-image-container {
+            border-radius: 50%; 
+            overflow: hidden; 
+            display: inline-block; 
+        }
+        .round-image {
+			border-radius: 100%; 
+            display: block; 
+            margin: auto; 
+            max-width: 300px; 
+            height: 300px;
+			
+        }
+		.centered-paragraph {
+            text-align: center; 
+        }
